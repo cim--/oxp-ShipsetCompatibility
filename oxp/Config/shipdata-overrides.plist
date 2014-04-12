@@ -1,0 +1,159 @@
+{
+	"adder" =
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 2;
+		"roles" = "trader(0.25) trader-courier(0.5) trader-smuggler pirate-light-fighter(0.25) pirate-independent(0.2) scavenger shuttle hermit-ship";
+	};
+	"anaconda" =
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 125;
+		"max_cargo" = 250; // NPC version only, to avoid over-generating
+		"roles" = "trader(0.5) trader-courier(0.1)";
+	};
+	"anaconda-pirate" =
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 125;
+		"max_cargo" = 250; // NPC version only, to avoid over-generating
+		"roles" = "pirate-heavy-freighter(0.05)";
+	};
+	"asp" = 
+	{
+		"auto_weapons" = 1;
+		"roles" = "trader-courier hunter-medium(0.75) hunter-heavy(0.75) pirate-medium-fighter(0.5) pirate-heavy-fighter(0.5) pirate-interceptor pirate-aegis-raider escort-heavy assassin-heavy asp-pirate";
+	};
+	"boa" =
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 100;
+		"roles" = "trader";
+	};
+	"boa-pirate" =
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 100;
+		"roles" = "pirate-medium-freighter(0.25) pirate-heavy-freighter";
+	};
+	"boa-mk2" =
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 125;
+		"roles" = "trader(0.25) trader-courier(0.05)";
+	};
+	"boa-mk2-pirate" =
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 125;
+		"roles" = " pirate-heavy-freighter(0.2)";
+	};
+	"buoy" = 
+	{
+		"beacon_label" = "%H Station";
+	};
+	"buoy-witchpoint" = 
+	{
+		"beacon_label" = "Witchpoint";	
+	};
+	"cobra3-trader" =
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 15;
+		"roles" = "trader(0.375) trader-courier(0.2) trader-smuggler(0.75) hunter-medium(0.5) pirate-heavy-fighter pirate-interceptor(0.25) pirate-aegis-raider(0.2) scavenger sunskim-trader";
+	};
+	"cobra3-alternate" =
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 15;
+		"roles" = "pirate-light-freighter pirate-medium-freighter(0.2) trader(0.375) hunter-heavy escort-heavy(0.25) hermit-ship sunskim-trader cobra3-alternate assassin-medium";
+	};
+	"cobra3-pirate" =
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 15;
+		"roles" = "pirate(0.25) pirate-medium-fighter(0.5)";
+	};
+	"cobramk1" = 
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 10;
+		"roles" = "pirate(0.5) pirate-medium-fighter hunter-medium scavenger trader trader-smuggler hermit-ship escort-medium(0.75) escort(0.25) assassin-light";
+	};
+	"cobramk1-alt" = 
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 10;
+		"roles" = "pirate(0.25) pirate-light-freighter(0.5) escort-heavy(0.5) escort-medium(0.25)";
+	};
+	"ferdelance" = 
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 8;
+		"roles" = "trader-freighter(0.25) trader-courier trader-smuggler(0.5) pirate-medium-fighter(0.75) pirate-heavy-fighter(0.75) pirate-interceptor pirate-aegis-raider(0.75) pirate(0.25) hunter-medium(0.75) hunter-heavy assassin-medium";
+	};
+	"gecko" =
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 3;
+		"roles" = "hunter(0.75) pirate-light-fighter(0.5) pirate-medium-fighter(0.75) pirate(0.5) escort(0.25) escort-medium(0.5) escort-heavy";
+	};
+	"krait" = 
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 2;
+		"roles" = "pirate pirate-light-fighter(0.75) hunter(0.5) escort(0.25) assassin-light";
+	};
+	"mamba" = 
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 3;
+		"roles" = "pirate pirate-light-fighter(0.5) hunter";
+	};
+	"mamba-escort" =
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 3;
+		"roles" = "pirate-light-fighter(0.5) escort escort-medium(0.25)";
+	};
+	"moray" = 
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 5;
+		"roles" = "trader(0.5) trader-courier(0.25) trader-smuggler hunter-medium pirate-medium-fighter pirate-interceptor(0.25) pirate(0.5) pirate-light-freighter(0.5) escort-medium(0.25) assassin-light";
+	};
+	"morayMED" =
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 15;
+		"roles" = "trader(0.5) sunskim-trader";
+	};
+	"python" = 
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 75;
+		"roles" = "trader(0.5) trader-smuggler(0.2) pirate(0.2) pirate-light-freighter(0.2)";
+	};
+	"python-blackdog" = 
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 75;
+		"roles" = "pirate-medium-freighter pirate-heavy-freighter(0.25) blackdog";
+	};
+	"python-trader" =
+	{
+		"auto_weapons" = 1;
+		"likely_cargo" = 75;
+		"roles" = "trader";
+	};
+	"sidewinder" = 
+	{
+		"auto_weapons" = 1;
+		"roles" = "pirate(0.75) pirate-light-fighter(0.25) hunter";
+	};
+	"sidewinder-escort" = 
+	{
+		"auto_weapons" = 1;
+		"roles" = "escort escort-medium(0.5)";
+	};
+}

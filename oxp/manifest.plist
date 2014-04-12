@@ -1,0 +1,12 @@
+{
+	identifier = "oolite.oxp.cim.shipset-compatibility";
+	version = "VERSION";
+	title = "Shipset Compatibility";
+	required_oolite_version = "1.79";
+	description = "Makes replacement shipsets compatible with Oolite 1.79";
+	category = "Misc";
+	author = "cim";
+	license = "GPL v2+ / CC-BY-NC-SA 3.0";
+	download_url = "http://compsoc.dur.ac.uk/~cim/oolite/ShipsetCompatibility_VERSION.oxz";
+	file_size = 1750;
+}
