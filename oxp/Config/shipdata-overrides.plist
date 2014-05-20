@@ -3,11 +3,17 @@
 	{
 		"auto_weapons" = 1;
 		"likely_cargo" = 2;
-		"roles" = "trader(0.25) trader-courier(0.5) trader-smuggler pirate-light-fighter(0.25) pirate-independent(0.2) scavenger shuttle hermit-ship";
+		"roles" = "trader(0.25) trader-courier(0.5) trader-smuggler pirate-light-fighter(0.25) pirate(0.2) scavenger shuttle hermit-ship";
 	};
 	"anaconda" =
 	{
 		"auto_weapons" = 1;
+		"escort_roles" = (
+			{ role = "escort"; min = -2; max = 2; },
+			{ role = "escort-medium"; min = 0; max = 4; },
+			{ role = "escort-heavy"; min = -4; max = 2; },
+			{ role = ""; min = 0; max = 2; } // spare slots for wandering escorts
+		);
 		"likely_cargo" = 125;
 		"max_cargo" = 250; // NPC version only, to avoid over-generating
 		"roles" = "trader(0.5) trader-courier(0.1)";
@@ -24,9 +30,19 @@
 		"auto_weapons" = 1;
 		"roles" = "trader-courier hunter-medium(0.75) hunter-heavy(0.75) pirate-medium-fighter(0.5) pirate-heavy-fighter(0.5) pirate-interceptor pirate-aegis-raider escort-heavy assassin-heavy asp-pirate";
 	};
+	"asp-cloaked" = 
+	{
+		"max_cargo" = 5;
+	};
 	"boa" =
 	{
 		"auto_weapons" = 1;
+		"escort_roles" = (
+			{ "role" = "escort"; min = 1; max = 3; },
+			{ "role" = "escort-medium"; min = -2; max = 2; },
+			{ "role" = "escort-heavy"; min = -3; max = 1; },
+			{ "role" = ""; min = 0; max = 2; },
+		);
 		"likely_cargo" = 100;
 		"roles" = "trader";
 	};
@@ -39,6 +55,12 @@
 	"boa-mk2" =
 	{
 		"auto_weapons" = 1;
+		"escort_roles" = (
+			{ "role" = "escort"; min = 1; max = 2; },
+			{ "role" = "escort-medium"; min = 1; max = 2; },
+			{ "role" = "escort-heavy"; min = -2; max = 2; },
+			{ "role" = ""; min = 0; max = 2; },
+		);
 		"likely_cargo" = 125;
 		"roles" = "trader(0.25) trader-courier(0.05)";
 	};
@@ -90,7 +112,7 @@
 	{
 		"auto_weapons" = 1;
 		"likely_cargo" = 8;
-		"roles" = "trader-freighter(0.25) trader-courier trader-smuggler(0.5) pirate-medium-fighter(0.75) pirate-heavy-fighter(0.75) pirate-interceptor pirate-aegis-raider(0.75) pirate(0.25) hunter-medium(0.75) hunter-heavy assassin-medium";
+		"roles" = "trader(0.25) trader-courier trader-smuggler(0.5) pirate-medium-fighter(0.75) pirate-heavy-fighter(0.75) pirate-interceptor pirate-aegis-raider(0.75) pirate(0.25) hunter-medium(0.75) hunter-heavy assassin-medium";
 	};
 	"gecko" =
 	{
@@ -108,7 +130,7 @@
 	{
 		"auto_weapons" = 1;
 		"likely_cargo" = 3;
-		"roles" = "pirate pirate-light-fighter(0.5) hunter";
+		"roles" = "pirate pirate-light-fighter(0.5)";
 	};
 	"mamba-escort" =
 	{
@@ -137,12 +159,21 @@
 	"python-blackdog" = 
 	{
 		"auto_weapons" = 1;
+		"escort_roles" = (
+			{ "role" = "pirate-light-fighter"; min = 1; max = 1; },
+			{ "role" = "pirate-medium-fighter"; min = 1; max = 1; },
+		);
 		"likely_cargo" = 75;
 		"roles" = "pirate-medium-freighter pirate-heavy-freighter(0.25) blackdog";
 	};
 	"python-trader" =
 	{
 		"auto_weapons" = 1;
+		"escort_roles" = (
+			{ "role" = "escort"; min = 0; max = 2; },
+			{ "role" = "escort-medium"; min = -2; max = 2; },
+			{ "role" = ""; min = 0; max = 2; }
+		);
 		"likely_cargo" = 75;
 		"roles" = "trader";
 	};
