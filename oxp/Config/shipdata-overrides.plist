@@ -130,7 +130,7 @@
 	{
 		"auto_weapons" = 1;
 		"likely_cargo" = 3;
-		"roles" = "pirate pirate-light-fighter(0.5)";
+		"roles" = "pirate pirate-light-fighter(0.5) hunter";
 	};
 	"mamba-escort" =
 	{
@@ -186,5 +186,13 @@
 	{
 		"auto_weapons" = 1;
 		"roles" = "escort escort-medium(0.5)";
+	};
+	"tharglet" =
+	{
+		"ai_type" = "oolite-thargletAI.js";
+	};
+	"thargoid" =
+	{
+		"ai_type" = "oolite-thargoidAI.js";
 	};
 }
